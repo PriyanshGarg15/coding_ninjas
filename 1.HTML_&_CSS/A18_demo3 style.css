@@ -1,0 +1,12 @@
+#logo-image-container
+{
+    height:100vh;
+    width:100vw;
+    background-image: url("Media/coding\ ninjas\ logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: 1000px 400px; */
+    background-size: cover;
+    /* The key word cover tells the browser to cover the whole area of an element. contain , on the other hand, tells the browser to show the whole image */
+    background-attachment: fixed;
+}

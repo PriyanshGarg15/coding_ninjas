@@ -1,0 +1,36 @@
+/* position:
+1. Static: element will be placed at aposition where it is supposed to be. there is nothing fancy around it.
+*/
+#outer-div
+{
+    border:2px solid black;
+    margin:20px;
+}
+#div1
+{
+    height:200px;
+    width:200px;
+    background-color:#393a7b;
+}
+#div2
+{
+    height:200px;
+    width:200px;
+    background-color:orange;
+    position:static;
+    left:200px;
+    top:200px;
+    /* this above left and top dont work this tells that there is no option of left/right/top/bottom in case of static */
+}
+#div3
+{
+    height:200px;
+    width:200px;
+    background-color:maroon;
+}
+#div4
+{
+    height:200px;
+    width:200px;
+    background-color:blueviolet;
+}

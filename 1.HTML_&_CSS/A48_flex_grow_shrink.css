@@ -1,0 +1,29 @@
+/* it gives us freedom to decide we cana djust the sizes of elemnts in remaining space/according to space */
+#container
+{
+    height:500px;
+    width:500px;
+    background-color:lightslategray;
+    display:flex;
+    
+}
+#container div
+{
+    height: 200px;
+    width: 200px;
+}
+#div1
+{
+    background-color:cyan;
+    flex-grow: 4;
+}
+#div2
+{
+    background-color:red;
+    flex-grow: 1;
+}
+
+/* i.e total we have 5 now we have 100px extra space and we have 5 parts i.e 1 part=20px
+so div1 being 4 will get 4*20=80px
+and div2 being 1 will get 1*20=20px */
+/* opposite(i.e just subtract) is the case of flex-shrink */

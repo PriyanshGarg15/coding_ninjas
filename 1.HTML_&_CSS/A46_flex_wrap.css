@@ -1,0 +1,39 @@
+/* as we know it is property of flex to wrap up the items inside the given flex space of parent ,its child adjust itself in that space 
+so if we dont want them to sdjust/we want them according to their size specefied even if not possible in that parent flrx so come flex warp- */
+/* bydefault if nowrap */
+#container
+{
+    height:600px;
+    /* do height:auto; if want flex items to to be covered in grey box */
+    width:600px;
+    background-color:lightslategray;
+    display:flex;
+    flex-wrap:wrap;
+    /* now every div will take 200px  and they will adjust themself in parent flex */
+    
+}
+#container div
+{
+    height: 200px;
+    width: 200px;
+}
+#div1
+{
+    background-color:cyan;
+}
+#div2
+{
+    background-color:red;
+}
+#div3
+{
+    background-color:orange;
+}
+#div4
+{
+    background-color:yellow;
+}
+#div5
+{
+    background-color:green;
+}

@@ -1,0 +1,35 @@
+/* 2. relative: the element will be positioned relative to its normal position. it enables, left, right, top and bottom options. space will be reserved as for the original element position. */
+#outer-div
+{
+    border:2px solid black;
+    margin:20px;
+}
+#div1
+{
+    height:200px;
+    width:200px;
+    background-color:#393a7b;
+}
+#div2
+{
+    height:200px;
+    width:200px;
+    background-color:orange;
+    position:relative;
+    left:20px;
+    top:20px;
+}
+/* apni posiion seh 20px left and top seh 20px neeche sarak jayega */
+/* aur uski original space bhi reserve rahegi */
+#div3
+{
+    height:200px;
+    width:200px;
+    background-color:maroon;
+}
+#div4
+{
+    height:200px;
+    width:200px;
+    background-color:blueviolet;
+}
