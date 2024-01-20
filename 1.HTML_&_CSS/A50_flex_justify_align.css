@@ -1,0 +1,48 @@
+#container
+{
+    height:600px;
+    width:600px;
+    background-color:lightslategray;
+    display:flex;
+    flex-direction:row;
+    /* row is bydefault */
+    flex-wrap: nowrap;
+    /* nowarp is bydefault */
+    /* we can use flex direction, flex-wrap and justify content together to adjust the position of the contents inside the container */
+    /* justify content works around the main axis(decided by flex-direction) and align items works across cross axis(opposite to flex-direction given) */
+    justify-content: space-around;
+    align-items: center;
+    /* justify-content property takes on any of the values below
+    ● flex-start - default
+    ● flex-end
+    ● center
+    ● space-between
+    ● space-around
+    ● space-evenly */
+    /* Align-items can be set to any of these values:
+    ● flex-start
+    ● flex-end
+    ● center
+    ● stretch - default
+    ● baseline 
+    if we would have increased the margin of  div individually than baseline puts the div till baseline*/
+}
+#container div
+{
+    height:100px;
+    width:100px;
+    /* when align-items is set to stretch, then it will stretch the contents of the container across the cross axis,
+    but if the height is mentioned, then it will obey the hight given which is mentioned otherwise if height:auto it would have stretched each div to full down*/
+}
+#div1
+{
+    background-color:cyan;
+}
+#div2
+{
+    background-color:red;
+}
+#div3
+{
+    background-color:orange;
+}

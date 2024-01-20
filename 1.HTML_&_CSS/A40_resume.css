@@ -37,17 +37,6 @@ html {
     justify-content: center;
 
 }
-#photo_text img{
-    border-radius:50%;
-    max-height: 15rem;
-    min-height: 5rem;
-}
-#photo_text .photo
-{
-    display: flex;
-    justify-content: center;
-    margin-top: -4rem;
-}
 .tabs div:hover{
     color: red;
     border-bottom:1px solid wheat;
@@ -63,26 +52,39 @@ html {
               /* h-offset v-offset blur spread color; */
     border-radius: 50%;
 }
+#photo_text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#photo_text img{
+    border-radius:50%;
+    max-height: 15rem;
+    min-height: 5rem;
+}
+#photo_text .photo
+{
+    margin-top: -4rem;
+}
 #photo_text img
 {
     box-shadow:5px 5px 10px 2px rgba(0,0,0,.8);
     border-radius: 50%;
+    
 }
 #photo_text .text
 {
-    margin: 7.5rem;
+    margin-top: 2rem;
     font-family: 'Arial', sans-serif;
     background-color: #f8f8f8;
     color: #333;
     line-height: 1.6;
     padding: 20px;
     text-align: justify;
+    width: 70%;
     
-}
-
-#photo_text p {
-    font-size: 18px;
-    margin-bottom: 20px;
 }
 
 #photo_text strong {
@@ -92,4 +94,98 @@ html {
 #photo_text em {
     font-style: italic;
     color: #27ae60;
+}
+#skills
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#skills .skill
+{
+    margin-top: 2rem;
+    color: #3498db;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill_indicate
+{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skill_indicate .skill_progress
+{
+    
+    color: white;
+    height:30px;
+    width: 150px;
+    background-color: lightgray;
+    border-radius: 15px;
+    margin: 10px;
+}
+.skill_progress .skill_progress_in1
+{
+    line-height: 30px;
+    text-align: center;
+    font-size: smaller;
+    height:30px;
+    width: 80%;
+    background-color: #009688;
+    border-radius: 15px;
+}
+.skill_progress .skill_progress_in2
+{
+    line-height: 30px;
+    text-align: center;
+    font-size: smaller;
+    height:30px;
+    width: 60%;
+    background-color: #2857A4;
+    border-radius: 15px;
+}
+.skill_progress .skill_progress_in3
+{
+    line-height: 30px;
+    text-align: center;
+    font-size: smaller;
+    height:30px;
+    width: 90%;
+    background-color: #FF5722;
+    border-radius: 15px;
+}
+.skill_progress .skill_progress_in4
+{
+    line-height: 30px;
+    text-align: center;
+    font-size: smaller;
+    height:30px;
+    width: 90%;
+    background-color: #91A762;
+    border-radius: 15px;
+}
+.skill_progress .skill_progress_in5
+{
+    line-height: 30px;
+    text-align: center;
+    font-size: smaller;
+    height:30px;
+    width: 50%;
+    background-color: #93738C;
+    border-radius: 15px;
+}
+.skill_progress .skill_progress_in6
+{
+    line-height: 30px;
+    text-align: center;
+    font-size: smaller;
+    height:30px;
+    width: 50%;
+    background-color: #009688;
+    border-radius: 15px;
 }
