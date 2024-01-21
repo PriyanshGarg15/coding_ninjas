@@ -1,0 +1,15 @@
+ul
+{
+    list-style: none;
+}
+li::before
+{
+    content:"";
+    /* content can be empty atleast give "" */
+    background-image: url("Media/me.png");
+    /* the elemnt added before li here i.e image needs height and width as being inline elemnt if we try to add by giving height and width so it will not be displayed so make image inline-block then do things with image*/
+    display:inline-block;
+    width:40px;
+    height:40px;
+    background-size:contain;
+}

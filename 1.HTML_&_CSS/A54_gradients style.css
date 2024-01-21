@@ -1,0 +1,21 @@
+#container
+{
+    height:400px;
+    width:400px;
+    margin:auto;
+    border:2px solid black;
+    background: linear-gradient(red,blue);
+    /* ------------------------------ */
+    /* background: linear-gradient(red,blue 20%);
+    /* 20% seh chalu ho jayega neeche tak */
+    /* remember that starting of 1st colour is 0% and its ending is 100% i.e 2nd colour starts from 100% and end at 200%  */
+    /* ------------------------------- */
+    /* background:linear-gradient(to top right, red 0%,cyan 70%, blue 100%);  */
+    /* ------------------------------- */
+    /* background:linear-gradient(90deg, red 0%,cyan 70%, blue 100%);  */
+    /* ------------------------------- */
+    /* background:repeating-linear-gradient(379deg, red 32%, blue 38%);  */
+    /* ------------------------------- */
+    /* background:radial-gradient(red -70%, blue 153%); */
+    /* background:repeating-radial-gradient(red 29%, green 33%); */
+}
