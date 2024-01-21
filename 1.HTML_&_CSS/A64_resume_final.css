@@ -1,0 +1,440 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+html {
+    font-size: 20px;
+}
+#about
+{
+    background-image: url("Media/macbook_mouse.jpg");
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.tabs
+{
+    background-color: black;
+    color: wheat;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+    padding:5px;
+}
+#about .text
+{
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 8rem;
+}
+.links {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+
+}
+.tabs div:hover{
+    color: red;
+    border-bottom:1px solid wheat;
+    transition: color 1s, border-bottom 1s;
+
+}
+.links i
+{
+    color: brown;
+    padding: 0.5rem;
+}
+.links i:hover{
+    box-shadow:0px 0px 6px 4px rgba(60, 21, 21, 0.2);
+              /* h-offset v-offset blur spread color; */
+    border-radius: 50%;
+}
+#photo_text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#photo_text img{
+    border-radius:50%;
+    max-height: 15rem;
+    min-height: 5rem;
+}
+#photo_text .photo
+{
+    margin-top: -4rem;
+}
+#photo_text img
+{
+    box-shadow:5px 5px 10px 2px rgba(0,0,0,.8);
+    border-radius: 50%;
+    
+}
+#photo_text .text
+{
+    margin-top: 2rem;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    text-align: justify;
+    width: 70%;
+    
+}
+
+#photo_text strong {
+    color: #3498db;
+}
+
+#photo_text em {
+    font-style: italic;
+    color: #27ae60;
+}
+
+/* -----------skills section-------- */
+
+#skills
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9dcdd;
+}
+#skills .skill
+{
+    margin: 2rem;
+    color: #3498db;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill_indicate
+{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.skill_indicate .skill_progress
+{
+    
+    color: white;
+    height:30px;
+    width: 150px;
+    background-color: black;
+    border-radius: 15px;
+    margin: 10px;
+}
+.skill_progress .skill_progress_in1
+{
+    line-height: 30px;
+    text-align: center;
+    font-size: smaller;
+    height:30px;
+    width: 80%;
+    background-color: #009688;
+    border-radius: 15px;
+}
+.skill_progress .skill_progress_in2
+{
+    line-height: 30px;
+    text-align: center;
+    font-size: smaller;
+    height:30px;
+    width: 60%;
+    background-color: #2857A4;
+    border-radius: 15px;
+}
+.skill_progress .skill_progress_in3
+{
+    line-height: 30px;
+    text-align: center;
+    font-size: smaller;
+    height:30px;
+    width: 90%;
+    background-color: #FF5722;
+    border-radius: 15px;
+}
+.skill_progress .skill_progress_in4
+{
+    line-height: 30px;
+    text-align: center;
+    font-size: smaller;
+    height:30px;
+    width: 90%;
+    background-color: #91A762;
+    border-radius: 15px;
+}
+.skill_progress .skill_progress_in5
+{
+    line-height: 30px;
+    text-align: center;
+    font-size: smaller;
+    height:30px;
+    width: 50%;
+    background-color: #93738C;
+    border-radius: 15px;
+}
+.skill_progress .skill_progress_in6
+{
+    line-height: 30px;
+    text-align: center;
+    font-size: smaller;
+    height:30px;
+    width: 50%;
+    background-color: #009688;
+    border-radius: 15px;
+}
+/* ------------work-edxperience-- */
+#work_experience .text{
+    color: #3498db;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#work_experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.block {
+    width: 70%;
+}
+
+.block>div {
+    width: 40%;
+    min-height: 250px;
+}
+
+.block div:nth-child(2n) {
+    position: relative;
+    left: 58%;
+}
+.block1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.block1 .p1
+{
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+    text-align: center;
+}
+.block1 .p2
+{
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121)
+}
+.divider {
+    position: absolute;
+    height: 80%;
+    top: 10%;
+    left: 50%;
+    
+}
+.plane
+{
+    position: sticky;
+    top: 35%;
+    margin-top: -30px;
+    transform: rotate(90deg);
+}
+
+/* ----portfolio---------------- */
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro
+}
+#portfolio .text{
+    color: #3498db;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#portfolio .images {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio .images div 
+{
+    max-width: 300px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+#portfolio .images div a
+{
+    text-decoration: none;
+}
+#portfolio .images div img{
+    height: 300px;
+    width: 300px;
+}
+
+#portfolio .images div:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+.portfolio-details {
+    transition: all 0.5s ease-in-out;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+}
+
+#portfolio .images div:hover .portfolio-details {
+    background-color: #80808078;
+    color: white;
+}
+/* ------contact section-------- */
+
+#contact
+{
+    background: linear-gradient(50deg,#403066,#2B519B);
+}
+#contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+#contact .cont{
+    color: wheat;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.middle
+{
+    width:70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.written
+{
+    width: 400px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.written div{
+    padding: 10px;
+}
+.written p
+{
+    text-align: justify;
+    font-size: smaller;
+}
+.bigg{
+    font-size: 30px;
+}
+.written .div5{
+    display: flex;
+}
+.written .div5 a{
+    color: white;
+    text-decoration: none;
+}
+
+.no_bg
+{
+    border: 0;
+    background:none;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    width: 100%;
+    font-size: 1.05rem;
+    padding: 2px;
+}
+.no_bg:focus
+{
+    outline: none;
+}
+.details .div4
+{
+    display: flex;
+    justify-content: center;
+}
+.details .div4 button
+{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+.details div
+{
+    margin: 40px;
+}
+
+@media screen and (max-width:600px){
+    #skills
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+    }
+    .skill_indicate
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width:700px){
+    .written .div5 a{
+        font-weight: bolder;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:825px){
+    .divider {
+        position: absolute;
+        height: 80%;
+        top: 10%;
+        left: 5%;
+        
+    }
+    .block div:nth-child(2n) {
+        position: relative;
+        left: 0%;
+    }
+    .block>div {
+        width: 90%;
+        margin-top: 5px;
+        min-height: 250px;
+    }
+}
